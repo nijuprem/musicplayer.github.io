@@ -1,0 +1,213 @@
+/* Single Player Artist Description */
+
+.artist-desc-container{
+    width: 100%;
+    min-height: 22rem;
+    background-color: rgb(18 30 45 / 80%);
+    border-radius: 1.2rem 0 0 1.2rem;
+}
+
+.artist-details{
+    word-break: break-word;
+    line-height: 1.4rem;
+    text-align: justify;
+    font-size: 15px;
+    padding: 3rem 1.5rem 3rem 0;
+}
+
+.sp-artist-desc{
+    width: 70%;
+    padding: 2.5rem;
+    padding-right: 0;
+}
+
+.sp-artist-image{
+    width: 30%;
+    min-height: 15rem;
+}
+
+.sp-artist-image img{
+    width: 100%;
+    height: -webkit-fill-available;
+    border-radius: 17px;
+}
+
+/* Artist description */
+
+.sp-artist-name{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sp-artist-name p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.followers{
+    color: #dcbdbd;
+    margin-right: 2.5rem;
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+.follow{
+    margin-left: 3rem;
+}
+
+.sp-artist-desc button{
+    padding: 0.75rem;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 7.5rem;
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(41deg, #ff0000, #3324fddb);
+    color:black;
+    cursor: pointer;
+}
+
+.artist-desc-2{
+    margin-top:5%;
+}
+
+.track-no{
+    margin-top: 2%;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.sp-artist-desc button:hover{
+    color:white;
+}
+
+.follow:hover{
+    color: #ff0000;
+    cursor: pointer;
+}
+
+
+/* Main Song List */
+
+.sp-songs-list{
+    margin-top: 2rem;
+}
+
+.sp-list{
+    width: 100%;
+    display: inline-flex;
+    background-color: #1f1f1f;
+    padding: 0.4rem;
+    position: relative;
+    margin-bottom: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+
+.sp-number{
+    position: absolute;
+    top: 40%;
+    margin-left: 0.5rem;
+}
+
+.sp-song-img img{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 2.6rem;
+}
+
+.sp-name{
+    position: absolute;
+    top: 2.4rem;
+    left: 9.4rem;
+}
+
+.sp-favicon-1{
+    position: absolute;
+    right: 5rem;
+    top: 2.4rem;
+}
+
+.sp-favicon-2{
+    position: absolute;
+    right: 2.5rem;
+    top: 2.4rem;
+}
+
+.sp-favicon-1 i, .sp-favicon-2 i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sp-list:hover{
+    background-color: #464242;
+}
+
+/* Similar Artists */
+
+.sa-heading, .recent-heading{
+    justify-content: space-between;
+}
+
+.sa-heading h4:hover{
+    color:rgb(255, 60, 60);
+}
+
+.similar-artist-container{
+    margin: 1rem 0;
+}
+
+.similar-artist-details{
+    position: relative;
+    padding: 0.6rem 0 0.6rem 0.4rem;
+    transition: all 1s ease-in-out;
+}
+
+.similar-artist{
+    margin-top: -1rem;
+}
+
+.sa-serial-no{
+    position: absolute;
+    top: 2.2rem;
+}
+
+.similar-artist-details img{
+    width: 70px;
+    margin-left: 1.5rem;
+}
+
+.sa-name{
+    position: absolute;
+    left: 7rem;
+    top: 1.5rem;
+}
+
+.sa-band{
+    position: absolute;
+    top: 3rem;
+    left: 7rem;
+    font-size: 13px;
+    color: darkgrey;
+}
+
+.similar-artist-details i{
+    position: absolute;
+    right: 0.7rem;
+    top: 1.5rem;
+}
+
+.sa-timing{
+    position: absolute;
+    right: 0.7rem;
+    top: 2.7rem;
+}
+
+.similar-artist-details:hover{
+    background-color: #464242;
+}
+
+
+.similar-artist-details i:hover{
+    color:rgb(255, 60, 60);
+}

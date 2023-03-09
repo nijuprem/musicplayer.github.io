@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/media-screen.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/c33fd7f1a1.js" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+    <link rel="icon" href="./images/Main/MP-logo.png">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <header>
+        <nav class="nav-bar flex">
+            <div class="nav-bar-1 flex ai">
+                <div>
+                    <a href="index.html"><img src="./images/Main/MP-logo.png" class="header-logo"
+                            alt="Music Player Logo"></a>
+                </div>
+
+                <div class="heading-name">
+                    <div>Music</div>
+                    <br>
+                    <div>Player</div>
+                </div>
+
+                <p class="favourites">Favourites</p>
+
+            </div>
+            <div class="nav-bar-2 flex ai">
+                <div class="search-bar">
+                    <button class="search-icon" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Search" class="search">
+                    <button class="mic-icon" type="submit"><i class="fa-solid fa-microphone"></i></button>
+                </div>
+
+                <div class="notification-container">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+
+                <div class="profile-image">
+                    <img src="./images/Main/profile-image.jpg" alt="Profile Image">
+                </div>
+
+                <div class="nav-selections">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                    <div class="nav-queue">
+                        <ul>
+                            <li>Search</li>
+                            <li>Queue</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+
+    <main>
+        <div class="aside-1 flex">
+
+            <!-- Carousel Section -->
+
+            <div class="carousel-container flex">
+                <div class="carousel-image">
+                    <img src="./images/carousel/1.jpg" alt="Carousel Image 1">
+                </div>
+                <div class="carousel-image" style="z-index:1;">
+                    <img src="./images/carousel/2.jpg" alt="Carousel Image 2">
+                </div>
+                <div class="carousel-image">
+                    <img src="./images/carousel/3.jpg" alt="Carousel Image 3">
+                </div>
+            </div>
+
+            <!-- Latest Release -->
+
+            <section class="latest-release">
+                <h2 class="heading-title">
+                    Latest Releases
+                </h2>
+                <div id="latest-release-container" class="flex">
+                    <div class="latest-releases-div">
+                        <img class="releases-image" src="./images/song-img/Yogeshwaraya.jpg" alt="Song Title">
+
+                        <div class="play-but-div">
+                            <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                        </div>
+
+                        <div class="latest-releases-details">
+                            <h3> Yogeshwaraya </h3>
+                            <p>April 29, 2010</p>
+                        </div>
+
+                        <div class="lr-selections">
+                            <i class="fa-solid fa-ellipsis"></i>
+
+                            <ul class="lr-list">
+                                <li>Play Now</li>
+                                <li>Add To Queue</li>
+                                <li>Add To Favourites</li>
+                                <li>Get Info</li>
+                            </ul>
+
+                            <p> 4:00</p>
+                        </div>
+                    </div>
+
+                    <div class="latest-releases-div">
+                        <img class="releases-image" src="./images/song-img/Bandeya.jpg" alt="Song Title">
+
+                        <div class="play-but-div">
+                            <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                        </div>
+
+                        <div class="latest-releases-details">
+                            <h3> Bandeya </h3>
+                            <p>April 29, 2010</p>
+                        </div>
+
+                        <div class="lr-selections">
+                            <i class="fa-solid fa-ellipsis"></i>
+
+                            <ul class="lr-list">
+                                <li>Play Now</li>
+                                <li>Add To Queue</li>
+                                <li>Add To Favourites</li>
+                                <li>Get Info</li>
+                            </ul>
+
+                            <p> 4:00</p>
+                        </div>
+                    </div>
+
+                    <div class="latest-releases-div">
+                        <img class="releases-image" src="./images/song-img/Bandeya.jpg" alt="Song Title">
+
+                        <div class="play-but-div">
+                            <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                        </div>
+
+                        <div class="latest-releases-details">
+                            <h3> Bandeya </h3>
+                            <p>April 29, 2010</p>
+                        </div>
+
+                        <div class="lr-selections">
+                            <i class="fa-solid fa-ellipsis"></i>
+
+                            <ul class="lr-list">
+                                <li>Play Now</li>
+                                <li>Add To Queue</li>
+                                <li>Add To Favourites</li>
+                                <li>Get Info</li>
+                            </ul>
+
+                            <p> 4:00</p>
+                        </div>
+                    </div>
+
+                    <div class="latest-releases-div">
+                        <img class="releases-image" src="./images/song-img/Yogeshwaraya.jpg" alt="Song Title">
+
+                        <div class="play-but-div">
+                            <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                        </div>
+
+                        <div class="latest-releases-details">
+                            <h3> Yogeshwaraya </h3>
+                            <p>April 29, 2010</p>
+                        </div>
+
+                        <div class="lr-selections">
+                            <i class="fa-solid fa-ellipsis"></i>
+
+                            <ul class="lr-list">
+                                <li>Play Now</li>
+                                <li>Add To Queue</li>
+                                <li>Add To Favourites</li>
+                                <li>Get Info</li>
+                            </ul>
+
+                            <p> 4:00</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!-- Popular Artists -->
+
+            <section class="popular-artists">
+                <h2 class="heading-title">
+                    Popular Artists
+                </h2>
+                <div class="popular-artist-container flex">
+
+                    <div class="popular-artist-div">
+                        <a href="SinglePlaylist.html">
+
+                            <img class="artist-image" src="./images/artist/ARR.jfif" alt="Popular Artists Image">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+                        </a>
+
+                        <p>AR Rahaman</p>
+                    </div>
+
+                    <div class="popular-artist-div">
+                        <a href="SinglePlaylist.html">
+
+                            <img class="artist-image" src="./images/artist/Coldplay.jpg" alt="Popular Artists Image">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+                        </a>
+                        <p>Coldplay</p>
+                    </div>
+
+                    <div class="popular-artist-div">
+                        <a href="SinglePlaylist.html">
+
+                            <img class="artist-image" src="./images/artist/Arijit.jpg" alt="Popular Artists Image">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+                        </a>
+                        <p>Arijit Singh</p>
+                    </div>
+
+                    <div class="popular-artist-div">
+                        <a href="SinglePlaylist.html">
+
+                            <img class="artist-image" src="./images/artist/Yesudas.jpg" alt="Popular Artists Image">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+                        </a>
+                        <p>Yesudas</p>
+                    </div>
+
+                    <div class="popular-artist-div">
+                        <a href="SinglePlaylist.html">
+
+                            <img class="artist-image" src="./images/artist/Saleem.jpg" alt="Popular Artists Image">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+                        </a>
+                        <p>Master Saleem</p>
+                    </div>
+
+                    <div class="popular-artist-div">
+                        <a href="SinglePlaylist.html">
+
+                            <img class="artist-image" src="./images/artist/Lata.jpg" alt="Popular Artists Image">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+                        </a>
+                        <p>Lata Mangeshkar</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Types of Music -->
+
+            <section class="music-types">
+                <div class="music-container flex">
+
+                    <div id="music-logo" class="flex jc ai">
+                        <div id="layer1"></div>
+                        <div id="layer2"></div>
+                        <div id="layer3">
+                            <p>Music Stations</p>
+                        </div>
+                    </div>
+
+                    <div class="music-container-div flex">
+
+                        <div class="music-stations">
+                            <img src="./images/station/love.jpg" alt="Music Stations">
+                            <p>Love</p>
+                        </div>
+
+                        <div class="music-stations">
+                            <img src="./images/station/retro.jfif" alt="Music Stations">
+                            <p>Retro</p>
+                        </div>
+
+                        <div class="music-stations">
+                            <img src="./images/station/chill.jpg" alt="Music Stations">
+                            <p>Chill</p>
+                        </div>
+
+                        <div class="music-stations">
+                            <img src="./images/station/workout.jfif" alt="Music Stations">
+                            <p>Workout</p>
+                        </div>
+
+                        <div class="music-stations">
+                            <img src="./images/station/rock.jpg" alt="Music Stations">
+                            <p>Rock</p>
+                        </div>
+
+                        <div class="music-stations">
+                            <img src="./images/station/pop.jpg" alt="Music Stations">
+                            <p>Pop</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Readymade playlists -->
+
+            <section class="playlists">
+                <div id="playlist-sections" class="jc">
+                    <div class="playlist-items">
+
+                        <img src="./images/Playlist/party.jpg" alt="Party Playlist">
+                        <p> Party </p>
+
+                    </div>
+
+                    <div class="playlist-items">
+                        <img src="./images/Playlist/road trip.jpg" alt="Road Trip Playlist">
+                        <p> Road Trip </p>
+                    </div>
+
+                    <div class="playlist-items">
+                        <img src="./images/Playlist/electronic.jfif" alt="Electronic Playlist">
+                        <p> Electronic </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Latest English Songs -->
+
+            <section class="latest-songs" id="english-songs">
+                <h2 class="heading-title">Latest English</h2>
+                <div class="latest-songs-div">
+                    <figure>
+                        <a href="#"><img src="./images/song-img/HYMN.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>HYMN for Weekend</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/SOY.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Shape Of You</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/We Will.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>We Will Rock You</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/Chandelier.jfif" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Chandelier</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/Ngup.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Never Give Up</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/End Game.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>End Game</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </section>
+
+
+            <!-- Latest Hindi Songs -->
+
+            <section class="latest-songs" id="hindi-songs">
+                <h2 class="heading-title">Latest Hindi</h2>
+                <div class="latest-songs-div">
+                    <figure>
+                        <a href="#"><img src="./images/song-img/soil.jfif" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Soil Song</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/Pasoori.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Pasoori</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/Kesariya.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Kesariya</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/Yogeshwaraya.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Yogeshwaraya</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/Bandeya.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Bandeya</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="#"><img src="./images/song-img/Kya leke.jpg" alt="Song Poster">
+
+                            <div class="play-but-div">
+                                <img src="./images/icons/play-button.png" alt="Play Button" class="play-button">
+                            </div>
+
+                            <figcaption class="song-details">
+                                <p>Do Din Ki Zindagi</p>
+                                <p>April 2021</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="aside-2">
+            <div class="playlist-container flex">
+                <h2>Queue</h2>
+
+                <select>
+                    <option value="">Queue</option>
+                    <option value="">Playlist</option>
+                    <option value="">Favourites</option>
+                </select>
+            </div>
+
+            <div class="queue-container">
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>01</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="./images/song-img/soil.jfif" alt="Song Cover">
+                    </div>
+                    <div class=" queue-song-details">
+                        <p class="queue-song-name">Soil Song</p>
+                        <p class="queue-artist-name">Isha Foundation</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>02</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/Pasoori.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Pasoori</p>
+                        <p class="queue-artist-name">Ali Sethi</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>03</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/Chandelier.jfif" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Chandelier</p>
+                        <p class="queue-artist-name">Sia</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>04</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/Yogeshwaraya.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Yogeshwaraya</p>
+                        <p class="queue-artist-name">Sadhguru</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>05</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/HYMN.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">HYMN for Weekend</p>
+                        <p class="queue-artist-name">Coldplay</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>06</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/SOY.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Shape Of You</p>
+                        <p class="queue-artist-name">Ed Sheeran</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>07</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/End Game.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">End Game</p>
+                        <p class="queue-artist-name">Taylor Swift</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>08</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/Bandeya.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Bandeya</p>
+                        <p class="queue-artist-name">Sadhguru</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>10</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/Ngup.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Never Give Up</p>
+                        <p class="queue-artist-name">Sia</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>11</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/Kesariya.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Kesariya</p>
+                        <p class="queue-artist-name">Arijit Singh</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>12</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/Kya leke.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Do Din Ki Zindagi</p>
+                        <p class="queue-artist-name">Kabir Cafe</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>13</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/HYMN.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">HYMN for Weekend</p>
+                        <p class="queue-artist-name">Coldplay</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>14</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/We Will.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Rock You</p>
+                        <p class="queue-artist-name">Queens</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-items">
+                    <div class="serial-no">
+                        <p>15</p>
+                    </div>
+                    <div class="queue-poster">
+                        <img src="images/song-img/Yogeshwaraya.jpg" alt="Song Cover">
+                    </div>
+                    <div class="queue-song-details">
+                        <p class="queue-song-name">Yogeshwaraya</p>
+                        <p class="queue-artist-name">Sadhguru</p>
+                    </div>
+                    <div class="favourite-selection right">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="main-player flex jc ai">
+
+            <div class="player-left flex">
+                <img src="./images/song-img/We Will.jpg" alt="Song">
+
+                <div class="main-song">
+                    <p class="mp-song-name">Rock You</p>
+                    <p class="mp-song-band">Queens</p>
+                </div>
+
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="player-center">
+                <audio controls="controls">
+                    <source src="rock.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+
+            <div class="player-right flex jc ai">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
