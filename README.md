@@ -5,7 +5,7 @@ A music player design using only HTML and CSS.
 Visit the app here: https://nijuprem.github.io/musicplayer.github.io/
 
 ## Usage
-Open the game by running the `index.html` file or if you're using VS Code, open the file in live server.
+Open the website by running the `index.html` file or if you're using VS Code, open the file in live server.
 
 ## Screenshots
 
